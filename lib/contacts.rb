@@ -3,12 +3,9 @@ require 'pry'
 contacts.each do |person, contact_details_hash|
   binding.pry
 end
-def remove_strawberry(contacts)
-  def remove_strawberry(contacts)
 
-end
-end
-contacts = {
+def remove_strawberry(contacts)
+  contacts = {
   "Jon Snow" => {
     name: "Jon",
     email: "jon_snow@thewall.we",
@@ -20,3 +17,4 @@ contacts = {
     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   }
 }
+end
